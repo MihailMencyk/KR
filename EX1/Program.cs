@@ -7,7 +7,6 @@ for (int i = 0; i < array1.Length; i++)
 {
     if (array1[i].Length <= 3) size++;
 }
-System.Console.WriteLine(size);
 
 string[] array2 = new string[size];
     int k = 0;
@@ -19,6 +18,6 @@ string[] array2 = new string[size];
             k++;
         }
     }
-    
+
 string s2 = string.Join(", ", array2);
 System.Console.WriteLine($"[{s2}]");
