@@ -19,3 +19,6 @@ string[] array2 = new string[size];
             k++;
         }
     }
+    
+string s2 = string.Join(", ", array2);
+System.Console.WriteLine($"[{s2}]");
