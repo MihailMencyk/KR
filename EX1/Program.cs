@@ -11,3 +11,11 @@ System.Console.WriteLine(size);
 
 string[] array2 = new string[size];
     int k = 0;
+        for (int i = 0; i < array1.Length; i++)
+    {
+        if (array1[i].Length <= 3) 
+        {
+            array2[k] = array1[i];
+            k++;
+        }
+    }
